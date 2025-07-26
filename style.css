@@ -1059,7 +1059,7 @@ img {
   margin-bottom: 0.5rem;
 }
 
-.faq p {
+.faq .mb-3rem {
   font-size: 1.25rem;
   color: #FFFFFF;
 }
