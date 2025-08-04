@@ -126,7 +126,6 @@ img {
 
 /* Hero Section */
 .hero {
-  background-image: url('./Assets/background-1920.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -135,6 +134,16 @@ img {
   text-align: center;
   position: relative;
   margin-top: 65px;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .hero .container {
