@@ -1068,7 +1068,7 @@ img {
 /* Accordion Layout */
 .accordion {
   display: flex;
-  gap: 2rem;
+  gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 0.5rem;
@@ -1078,7 +1078,7 @@ img {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 24px;
 }
 
 /* Accordion Item */
@@ -1183,6 +1183,7 @@ img {
   .accordion {
     flex-direction: column;
     padding: 0 1rem;
+    gap: 24px;
   }
 
   .accordion-column {
@@ -1351,18 +1352,6 @@ img {
   padding-top: 2rem;
   font-family: "SF Pro Rounded";
 }
-.quick-links-label {
-  padding-top: 0.5rem;
-  margin-bottom: 0.3rem;
-  display: none;
-  color: #FFF;
-  font-family: "SF Pro Display";
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
 @media (max-width: 1024px) {
   .footer-cta h2 {
     text-align: center;
@@ -1436,7 +1425,7 @@ img {
   }
   .footer-left {
     align-items: center;
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
   .footer-left img {
@@ -1450,7 +1439,7 @@ img {
 
   .footer-top {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
     padding-left: 16px;
   }
@@ -1466,15 +1455,13 @@ img {
   .footer-bottom {
     font-size: 16px;
     padding-bottom: 80px;
+    padding-top: 10px;
   }
   .footer-right {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.4rem;
   }
-  .quick-links-label {
-    display: block;
-}
 }
 .footer-mobile-button {
   position: fixed;
